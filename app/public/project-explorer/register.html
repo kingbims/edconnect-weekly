@@ -1,0 +1,106 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <header >
+            <div>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-primary mx-2 d-flex align-items-center">
+                    <a class="navbar-brand" href="index.html">Project Explorer</a>
+
+                    <form class="form-inline" name="searchForm">
+                        <input class="form-control mr-2" type="search" placeholder="Search Projects">
+                        <button class="btn btn-outline-light" type="submit" href="search.html">Search</button>
+                    </form>
+
+                    <div class="collapse navbar-collapse" id="navbar-supportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="search.html">Submit</a>
+                            </li>
+                        </ul>
+                    </div>  
+
+                    <div class="collapse navbar-collapse" id="navbar-supportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="register.html">Sign up</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="login.html">Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="mx-auto w-50 p-3" style="width: 200px;">
+                <h1>Signup</h1>
+
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-6">
+                            <label for="exampleInputFirstName1">First Name</label>
+                            <input type="text" name="firstName" class="form-control" id="exampleInputFirstName1" placeholder="First name">
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="exampleInputLastName1">Last Name</label>
+                            <input type="text" name="lastName" class="form-control" id="exampleInputLastName1" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-6">
+                            <label for="exampleInputEmail1">Email Address</label>
+                            <input type="text" name="email" class="form-control" id="exampleInputEmail1" placeholder="Your Email address">
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="exampleInputPassword1">Password</label>
+                             <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Your Password">
+                         </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-4">
+                            <label for="exampleFormControlSelect1">Program</label>
+                            <select name="program" class="form-control" id="exampleFormControlSelect1">
+                                <option value="choose">choose...</option>
+                                <option value="computer_science">Computer Science</option>
+                                <option value="computer_information_systems">Computer Information Systems</option>
+                                <option value="computer_technology">Computer Technology</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-4">
+                            <label for="exampleInputNumber1">Matriculation Number</label>
+                            <input type="text" name="number" class="form-control" id="exampleInputNumber1" placeholder="e.g. 16/2020">
+                        </div>
+                        <div class="form-group col-4">
+                            <label for="exampleFormControlSelect1">Graduation Year</label>
+                            <select name="graduationYear" class="form-control" id="exampleFormControlSelect1">
+                                <option value="choose">choose...</option>
+                                <option value="2013">2013</option>
+                                <option value="2014">2014</option>
+                                <option value="2015">2015</option>
+                                <option value="2016">2016</option>
+                                <option value="2017">2017</option>
+                                <option value="2018">2018</option>
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                            </select>
+                        </div>
+                    </div>  
+                    
+                </form>
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+            </div>
+        </main>
+        <footer>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-end mx-5 mt-2 mb-5">
+                <p class="text-secondary">Project Explorer © 2020 -</p> <p>Edconnect</p>
+            </nav>
+            
+        </footer>
+    </body>
+</html>
